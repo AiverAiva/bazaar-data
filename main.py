@@ -56,4 +56,4 @@ for item in bazaar["products"]:
         json.dump(item_data, f)
 
 with open(os.path.join(script_path, 'quickstat.json'), 'w') as f:
-        json.dump(quick_stat, f)
+        json.dump(quick_stat, f) 
