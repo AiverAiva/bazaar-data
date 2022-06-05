@@ -6,6 +6,9 @@ name: Bazaar data update
 on:
   schedule:
     - cron:  '0,30 * * * *'
+  push:
+    branches:    
+      - 'main'
 
 jobs:
   build:
